@@ -16,7 +16,6 @@ export default async function signin(
 
     if (!user) {
       res.status(401);
-      s;
       res.json({ error: "Invalid login" });
       return;
     }
